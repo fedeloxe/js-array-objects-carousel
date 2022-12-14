@@ -1,11 +1,36 @@
-//Creo array immagini
+//object
 const imagesArray = [
-    "01.webp",
-    "02.webp",
-    "03.webp",
-    "04.webp",
-    "05.webp"
+    {
+        img:"01.webp",
+        title: "Spiderman Miles Morales",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore necessitatibus. Eum atque ex mollitia eius rerum amet adipisci?",
+    },
+
+    {
+        img:  "02.webp",
+        title: "Ratchet and clank rift apart",
+        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore necessitatibus. Eum atque ex mollitia eius rerum amet adipisci?",
+    },
+
+    {
+        img:"03.webp",
+        title:"Fortnite",
+        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore necessitatibus. Eum atque ex mollitia eius rerum amet adipisci?",
+    },
+
+    {
+        img:"04.webp",
+        title:"Stray",
+        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore necessitatibus. Eum atque ex mollitia eius rerum amet adipisci?",
+    },
+
+    {
+        img:"05.webp",
+        title:"Marvel's Avengers",
+        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore necessitatibus. Eum atque ex mollitia eius rerum amet adipisci?",
+    }
 ]
+
 
 //Creiamo dinamicamente i div con le immagini del carosello
 let itemsContent = '';
