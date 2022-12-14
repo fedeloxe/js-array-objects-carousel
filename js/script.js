@@ -3,31 +3,31 @@ const imagesArray = [
     {
         img:"01.webp",
         title: "Spiderman Miles Morales",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore necessitatibus. Eum atque ex mollitia eius rerum amet adipisci?",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore",
     },
 
     {
         img:  "02.webp",
         title: "Ratchet and clank rift apart",
-        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore necessitatibus. Eum atque ex mollitia eius rerum amet adipisci?",
+        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore",
     },
 
     {
         img:"03.webp",
         title:"Fortnite",
-        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore necessitatibus. Eum atque ex mollitia eius rerum amet adipisci?",
+        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore",
     },
 
     {
         img:"04.webp",
         title:"Stray",
-        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore necessitatibus. Eum atque ex mollitia eius rerum amet adipisci?",
+        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore",
     },
 
     {
         img:"05.webp",
         title:"Marvel's Avengers",
-        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore necessitatibus. Eum atque ex mollitia eius rerum amet adipisci?",
+        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quo reiciendis ipsa quibusdam. Harum ipsa voluptatem voluptas alias ea eaque tempore",
     }
 ]
 
@@ -38,7 +38,7 @@ let itemsContent = '';
 for(let i = 0; i < imagesArray.length; i++){
     itemsContent += `<div class="item">
         <img src="./img/${imagesArray[i].img}">
-        <div>
+        <div class=description>
             <h3>${imagesArray[i].title}</h3>
             <p>${imagesArray[i].description}</p>
         </div>
