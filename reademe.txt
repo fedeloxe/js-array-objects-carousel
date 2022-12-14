@@ -1,0 +1,2 @@
+1- setto un intervallo tramite la funzione setinterval per far cambiare le foto da solo ogni secondo 
+2- copio e incollo il contenuto della funzione che mi permetteba di mandare le immagini avanti tramite il bottone 
