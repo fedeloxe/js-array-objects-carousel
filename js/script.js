@@ -175,6 +175,33 @@ document.getElementById('start').addEventListener('click', function(){
 
 })
 
+document.getElementById('reverse').addEventListener('click', function(){
+    
+    autoPlay= setInterval(function(){
+
+        items[itemActive].classList.remove(`active`);
+        circles[itemActive].classList.remove(`active`);
+
+        if(itemActive-1==-1){
+            itemActive=imagesArray.length-1
+        }
+
+        else{
+            itemActive--;
+        }
+        
+        items[itemActive].classList.add(`active`);
+        circles[itemActive].classList.add(`active`);
+      
+    
+    
+    },3000)
+
+})
+
+
+
+
 document.getElementById('stop').addEventListener('click', function(){
     clearInterval(autoPlay)
 })
