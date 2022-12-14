@@ -150,6 +150,9 @@ let autoPlay
 document.getElementById('start').addEventListener('click', function(){
 
 
+    clearInterval(autoPlay)
+
+
 
     autoPlay= setInterval(function(){
         items[itemActive].classList.remove(`active`);
@@ -176,6 +179,8 @@ document.getElementById('start').addEventListener('click', function(){
 })
 
 document.getElementById('reverse').addEventListener('click', function(){
+
+    clearInterval(autoPlay)
     
     autoPlay= setInterval(function(){
 
